@@ -1,0 +1,27 @@
+
+body {
+    background-color: green;
+}
+#box{
+    background-color: blueviolet;
+    color: white;
+}
+
+.heading{
+    background-color: red;
+    color: white;
+    text-decoration: underline;
+}
+
+button{
+    background-color: green;
+    color: white;
+}
+
+p{
+    text-align: justify;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
