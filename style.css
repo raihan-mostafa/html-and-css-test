@@ -1,6 +1,6 @@
 
 body {
-    background-color: green;
+    background-color: violet;
 }
 #box{
     background-color: blueviolet;
@@ -24,4 +24,47 @@ p{
 }
 a{
     text-decoration: none;
+}
+
+#only{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer{
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+
+#inner{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+}
+#logo{
+    color: orange;
+    font-size= 20px;
+}
+button{
+    background-color: orange;
+}
+a{
+    margin-right: 185px;
+    text-decoration: none;
+    color: white;
 }
