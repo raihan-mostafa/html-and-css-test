@@ -85,3 +85,62 @@ a{
      right: 0px;
      top: 50px;
 }
+#navbar1{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+#ancor{
+    color:black;
+    background-color: aqua;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.under{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+#media{
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+}
+@media(max-width:299px){
+    #media{
+        background-color: blue;
+    }
+}
+@media(min-width:300px) and (max-width:400px){
+    #media{
+        background-color: pink;
+    }
+}
+#loader{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    border: 10px solid brown ;
+    border-top: 10px solid yellow;
+    animation: spin 2s ease-in-out 0s infinite;
+
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
